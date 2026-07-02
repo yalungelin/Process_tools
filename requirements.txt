@@ -1,0 +1,10 @@
+pillow
+paddlepaddle
+paddlex[ocr-core]>=3.6.0,<3.7.0
+PyYAML
+requests
+aiohttp
+tokenizers
+ftfy
+latex2mathml
+pyinstaller

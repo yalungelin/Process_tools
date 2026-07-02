@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Runtime cache and logs
+formula_ocr_app/.cache/
+cache/
+logs/
+*.log
+
+# PyInstaller/build outputs
+build/
+build_fixed/
+dist/
+*.spec
+
+# Third-party source/vendor trees
+PaddleOCR-main/
+
+# Local Word/MathML paste experiments
+_word_paste_*/
+
+# Self-test and temporary outputs
+exe_*_selftest.out.txt
+exe_*_selftest.err.txt
+toolbox_exe_stdout.txt
+toolbox_exe_stderr.txt
+debug_exe_stdout.txt
+debug_exe_stderr.txt
+
+# Generated documents and local samples
+*.docx
+公式.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

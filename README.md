@@ -98,6 +98,12 @@ python -m formula_ocr_app.app --preview-self-test
 
 部分测试依赖 Windows 剪贴板、Word 兼容格式或本地浏览器。
 
+## 开源致谢
+
+本项目的公式识别能力基于 [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) / PaddleX 公式识别模型实现。PaddleOCR 是 PaddlePaddle 生态下的开源 OCR 项目，通常按 Apache License 2.0 授权发布。
+
+本仓库不包含 PaddleOCR 第三方源码、模型权重或打包后的运行时文件。若你在二进制包或离线包中一并分发 PaddleOCR、PaddlePaddle、PaddleX 或相关模型文件，请同时保留对应项目的许可证、版权声明和模型使用说明。更完整的第三方声明见 [NOTICE.md](NOTICE.md)。
+
 ## 说明
 
 本仓库只保存应用逻辑、界面代码、格式转换代码和必要资源。模型文件、PaddleOCR 第三方源码、打包后的可执行文件、日志和临时转换验证文件应通过 `.gitignore` 排除。
